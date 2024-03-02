@@ -27,45 +27,47 @@ export const CustomCarousel = () => {
         <CarouselContent>
           {projects.projects.map((item, index) => (
             <CarouselItem key={item.link} className="basis xl:basis-1/2 p-1">
-              <Card>
-                <CardContent
-                  className="flex flex-column bg-muted-foreground shadow-lg rounded p-0 relative"
-                  onMouseEnter={() => {
-                    setId(index);
-                    setIsHovered(true);
-                  }}
-                  onMouseLeave={() => {
-                    setId(100);
-                    setIsHovered(false);
-                  }}
-                >
-                  <Image
-                    src={item.src}
-                    width="1"
-                    height="1"
-                    layout="responsive"
-                    objectFit="cover"
-                    alt="image"
-                    className="transition duration-1000 ease-in-out transform hover:blur-md rounded"
-                    style={{ transitionProperty: "filter" }}
-                  />
-                  <div
-                    className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-opacity duration-1000 ease-in-out ${isHovered && id === index ? "opacity-100" : "opacity-0"} transition-transform ${isHovered ? "translate-y-0" : "translate-y-20"}`}
-                    style={{ transitionProperty: "all" }}
+              <a href={item.link}>
+                <Card>
+                  <CardContent
+                    className="flex flex-column bg-muted-foreground shadow-lg rounded p-0 relative"
+                    onMouseEnter={() => {
+                      setId(index);
+                      setIsHovered(true);
+                    }}
+                    onMouseLeave={() => {
+                      setId(100);
+                      setIsHovered(false);
+                    }}
                   >
-                    <p
-                      className={`${item?.darkText ? "text-background" : "text-white-100"} text-center font-bold text-[24px] md:text-[36px]`}
+                    <Image
+                      src={item.src}
+                      width="1"
+                      height="1"
+                      layout="responsive"
+                      objectFit="cover"
+                      alt="image"
+                      className="transition duration-1000 ease-in-out transform hover:blur-md rounded"
+                      style={{ transitionProperty: "filter" }}
+                    />
+                    <div
+                      className={`absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 transition-opacity duration-1000 ease-in-out ${isHovered && id === index ? "opacity-100" : "opacity-0"} transition-transform ${isHovered ? "translate-y-0" : "translate-y-20"}`}
+                      style={{ transitionProperty: "all" }}
                     >
-                      {item.name}
-                    </p>
-                    <p
-                      className={`${item?.darkText ? "text-background" : "text-white-100"} text-center text-[10px]`}
-                    >
-                      {item.type}
-                    </p>
-                  </div>
-                </CardContent>
-              </Card>
+                      <p
+                        className={`${item?.darkText ? "text-background" : "text-white-100"} text-center font-bold text-[24px] md:text-[36px]`}
+                      >
+                        {item.name}
+                      </p>
+                      <p
+                        className={`${item?.darkText ? "text-background" : "text-white-100"} text-center text-[10px]`}
+                      >
+                        {item.type}
+                      </p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </a>
             </CarouselItem>
           ))}
         </CarouselContent>
