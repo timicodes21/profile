@@ -1,0 +1,32 @@
+{
+  "projects": [
+    {
+      "name": "Blackcopper",
+      "link": "https://veranos.io/",
+      "type": "Mobile Application",
+      "src": "/images/blackcopper.png",
+      "darkText": false
+    },
+    {
+      "name": "Varanos",
+      "link": "https://veranos.io/",
+      "type": "Web Application",
+      "src": "/images/veranos.png",
+      "darkText": false
+    },
+    {
+      "name": "Afrelib AI Academy",
+      "link": "https://app.afrelibai.academy/",
+      "type": "Web Application",
+      "src": "/images/afrelib.png",
+      "darkText": true
+    },
+    {
+      "name": "CENGPCS",
+      "link": "https://www.cengpcs.com/",
+      "type": "Website",
+      "src": "/images/cengpcs.png",
+      "darkText": true
+    }
+  ]
+}
