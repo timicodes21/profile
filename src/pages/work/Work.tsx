@@ -3,7 +3,7 @@ import React from "react";
 
 const Work = () => {
   return (
-    <div className="py-20 md:py-20 border-y border-y-inputBorder">
+    <div className="py-20 md:py-20 border-y border-y-inputBorder" id="work">
       <div className="flex flex-col items-center bg-dark">
         <div className="bg-border font-bold px-3 w-[100px] text-center rounded-[99px]">
           <p className="text-purple-100">WORK</p>

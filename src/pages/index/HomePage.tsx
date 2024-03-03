@@ -12,7 +12,10 @@ const HomePage = () => {
         </p>
       </div>
       <div className="mt-5 flex flex-col md:flex-row">
-        <CustomButton mode="background">Dig into my universe</CustomButton>
+        <a href="#work">
+          <CustomButton mode="background"> Dig into my universe</CustomButton>
+        </a>
+
         <div className="mt-3 md:mt-0">
           <CustomButton mode="border">See Services</CustomButton>
         </div>
