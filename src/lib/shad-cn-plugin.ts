@@ -148,10 +148,6 @@ export const shadcnPlugin = plugin(
           yellow: {
             100: "hsla(var(--yellow))",
           },
-
-          black: {
-            100: "hsla(var(--dark-foreground))",
-          },
           blue: {
             100: "hsla(var(--blue-foreground))",
             light: "hsla(var(--blue))",
