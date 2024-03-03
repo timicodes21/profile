@@ -12,7 +12,9 @@ const Work = () => {
           Dig into my universe
         </p>
       </div>
-      <CustomCarousel />
+      <div className="container">
+        <CustomCarousel />
+      </div>
     </div>
   );
 };
