@@ -46,6 +46,13 @@ const About = () => {
           teamwork necessary to create outstanding applications. Ready to make
           your projects not just functional but truly extraordinary.
         </p>
+        <div className="mt-3">
+          <a href="/Timileyin-Babalola-Resume.pdf" download="Resume">
+            <p className="text-white-100 mt-3 text-justify text-[12px] sm:text-[14px] md:text-[16px] underline cursor-pointer">
+              Download Resume
+            </p>
+          </a>
+        </div>
       </div>
     </div>
   );

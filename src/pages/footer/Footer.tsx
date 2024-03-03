@@ -9,17 +9,19 @@ const Footer = () => {
       <div className="flex items-center">
         <a
           href="https://github.com/timicodes21?tab=repositories"
+          target="_blank"
           className="mx-2"
         >
           <GithubIcon className="text-gray-100" />
         </a>
         <a
           href="https://www.linkedin.com/in/timileyin-babalola-283b4b149/"
+          target="_blank"
           className="mx-2"
         >
           <LinkedinIcon className="text-gray-100" />
         </a>
-        <a href="https://x.com/dev_timi?s=21" className="mx-2">
+        <a href="https://x.com/dev_timi?s=21" target="_blank" className="mx-2">
           <Twitter className="text-gray-100" />
         </a>
       </div>

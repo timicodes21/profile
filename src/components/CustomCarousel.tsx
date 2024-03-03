@@ -27,7 +27,7 @@ export const CustomCarousel = () => {
         <CarouselContent>
           {projects.projects.map((item, index) => (
             <CarouselItem key={item.link} className="basis xl:basis-1/2 p-1">
-              <a href={item.link}>
+              <a href={item.link} target="_blank">
                 <Card>
                   <CardContent
                     className="flex flex-column bg-muted-foreground shadow-lg rounded p-0 relative"
@@ -55,13 +55,11 @@ export const CustomCarousel = () => {
                       style={{ transitionProperty: "all" }}
                     >
                       <p
-                        className={`${item?.darkText ? "text-background" : "text-white-100"} text-center font-bold text-[24px] md:text-[36px]`}
+                        className={`text-white-100 text-center font-bold text-[24px] md:text-[36px]`}
                       >
                         {item.name}
                       </p>
-                      <p
-                        className={`${item?.darkText ? "text-background" : "text-white-100"} text-center text-[10px]`}
-                      >
+                      <p className={`text-white-100 text-center text-[10px]`}>
                         {item.type}
                       </p>
                     </div>

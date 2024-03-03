@@ -46,7 +46,7 @@ const Contact = () => {
           </div>
 
           <button
-            className="bg-white-100 px-5 py-3 text-center border-white-100 font-[16px] mx-2"
+            className="bg-white-100 px-5 py-3 text-center border-white-100 text-[12px] md:text-[16px] font-medium mx-2"
             type="button"
           >
             <p className="text-background">Hit Me up</p>
