@@ -15,6 +15,13 @@
       "darkText": false
     },
     {
+      "name": "Tiktok Clone",
+      "link": "https://social-apppp.vercel.app/",
+      "type": "Web Application",
+      "src": "/images/tiktik.png",
+      "darkText": true
+    },
+    {
       "name": "Afrelib AI Academy",
       "link": "https://app.afrelibai.academy/",
       "type": "Web Application",

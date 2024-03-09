@@ -55,11 +55,13 @@ export const CustomCarousel = () => {
                       style={{ transitionProperty: "all" }}
                     >
                       <p
-                        className={`text-white-100 text-center font-bold text-[24px] md:text-[36px]`}
+                        className={`${item?.darkText ? "text-purple-100" : "text-white-100"} text-center font-bold text-[24px] md:text-[36px]`}
                       >
                         {item.name}
                       </p>
-                      <p className={`text-white-100 text-center text-[10px]`}>
+                      <p
+                        className={`${item?.darkText ? "text-purple-100" : "text-white-100"} text-center text-[10px]`}
+                      >
                         {item.type}
                       </p>
                     </div>
