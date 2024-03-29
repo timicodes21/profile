@@ -6,7 +6,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 border-y border-y-inputBorder container px-5 lg:px-10 py-20 md:py-0 md:h-[100vh]">
+    <div
+      className="grid grid-cols-1 lg:grid-cols-2 border-y border-y-inputBorder container px-5 lg:px-10 py-20 md:py-0 md:h-[100vh]"
+      id="contact"
+    >
       <div className="flex flex-col justify-center pr-5 lg:pr-10">
         <div className="flex justify-center lg:justify-start">
           <Badge>CONTACT</Badge>

@@ -16,9 +16,9 @@ const HomePage = () => {
           <CustomButton mode="background"> Dig into my universe</CustomButton>
         </a>
 
-        <div className="mt-3 md:mt-0">
-          <CustomButton mode="border">See Services</CustomButton>
-        </div>
+        <a className="mt-3 md:mt-0" href="#contact">
+          <CustomButton mode="border">Contact</CustomButton>
+        </a>
       </div>
     </div>
   );
