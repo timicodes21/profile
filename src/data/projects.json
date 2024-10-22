@@ -5,91 +5,104 @@
       "link": "https://apps.apple.com/ng/app/aiden-menu-and-reservations/id6593680527",
       "type": "iOS Application",
       "src": "/images/aiden-customer-ios.png",
-      "darkText": false
+      "darkText": false,
+      "textColor": "#07271C"
     },
     {
       "name": "Aiden Business",
       "link": "https://apps.apple.com/ng/app/aiden-business/id6670170161",
       "type": "iOS Application",
       "src": "/images/aiden-business-ios.png",
-      "darkText": false
+      "darkText": false,
+      "textColor": "#0A0D30"
     },
     {
       "name": "Aiden Customer",
       "link": "https://play.google.com/store/apps/details?id=com.aiden.aidencustomer",
       "type": "Android Application",
       "src": "/images/aiden-customer-android.png",
-      "darkText": false
+      "darkText": false,
+      "textColor": "#07271C"
     },
     {
       "name": "Aiden Business",
       "link": "https://play.google.com/store/apps/details?id=com.aiden_business",
       "type": "Android Application",
       "src": "/images/aiden-business-android.png",
-      "darkText": false
+      "darkText": false,
+      "textColor": "#0A0D30"
     },
     {
       "name": "Bossof",
       "link": "https://apps.apple.com/ng/app/bossof/id6503322168",
       "type": "iOS Application",
       "src": "/images/bossof-customer-ios.png",
-      "darkText": false
+      "darkText": false,
+      "textColor": "#2d64e3"
     },
     {
       "name": "Bossof Partner",
       "link": "https://apps.apple.com/ng/app/bossof-partner/id6503321919",
       "type": "iOS Application",
       "src": "/images/bossof-cleaner-ios.png",
-      "darkText": false
+      "darkText": false,
+      "textColor": "#2d64e3"
     },
     {
       "name": "Bossof",
       "link": "https://apps.apple.com/ng/app/bossof/id6503322168",
       "type": "Android Application",
       "src": "/images/bossof-customer-android.png",
-      "darkText": false
+      "darkText": false,
+      "textColor": "#2d64e3"
     },
     {
       "name": "Bossof Partner",
       "link": "https://apps.apple.com/ng/app/bossof-partner/id6503321919",
       "type": "Android Application",
       "src": "/images/bossof-cleaner-android.png",
-      "darkText": false
+      "darkText": false,
+      "textColor": "#2d64e3"
     },
     {
       "name": "Blackcopper",
       "link": "https://play.google.com/store/apps/details?id=com.blackcopper/",
       "type": "Mobile Application",
       "src": "/images/blackcopper.png",
-      "darkText": false
+      "darkText": false,
+      "textColor": "#FFFFFF"
     },
     {
       "name": "Varanos",
       "link": "https://veranos.io/",
       "type": "Web Application",
       "src": "/images/veranos.png",
-      "darkText": false
+      "darkText": false,
+      "textColor": "#FFFFFF"
     },
     {
       "name": "Tiktok Clone",
       "link": "https://social-apppp.vercel.app/",
       "type": "Web Application",
       "src": "/images/tiktik.png",
-      "darkText": true
+      "darkText": true,
+      "textColor": "#0A0D30"
     },
     {
       "name": "Afrelib AI Academy",
       "link": "https://app.afrelibai.academy/",
       "type": "Web Application",
       "src": "/images/afrelib.png",
-      "darkText": true
+      "darkText": true,
+      "textColor": "#0A0D30"
     },
     {
       "name": "CENGPCS",
       "link": "https://www.cengpcs.com/",
       "type": "Website",
       "src": "/images/cengpcs.png",
-      "darkText": true
+      "darkText": true,
+      "textColor": "#0A0D30"
     }
   ]
 }

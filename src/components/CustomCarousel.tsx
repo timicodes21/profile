@@ -56,6 +56,7 @@ export const CustomCarousel = () => {
                     >
                       <p
                         className={`${item?.darkText ? "text-background" : "text-white-100"} text-center font-bold text-[24px] md:text-[36px]`}
+                        style={{ color: item.textColor }}
                       >
                         {item.name}
                       </p>

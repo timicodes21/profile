@@ -7,7 +7,7 @@ const About = () => {
     <div className="grid grid-cols-1 lg:grid-cols-2">
       <div className="w-[100vw] lg:w-[50vw]">
         <Image
-          src="/images/image.jpg"
+          src="/images/image.png"
           width="1"
           height="1"
           layout="responsive"
@@ -26,7 +26,7 @@ const About = () => {
           Developer with a{" "}
           <span className="text-white-200 font-semibold">
             {" "}
-            3-year track record
+            4-year track record
           </span>
           , crafting visually enchanting and flawlessly functional mobile and
           web apps. My knack for creating{" "}
@@ -47,9 +47,12 @@ const About = () => {
           your projects not just functional but truly extraordinary.
         </p>
         <div className="mt-3">
-          <a href="/Timileyin-Babalola-Resume.pdf" download="Resume">
+          <a
+            href="https://docs.google.com/document/d/14O84V4bbat1MrgZLijaWLIzyDEdFvc8u6PplyrAcZWw/edit?usp=sharing"
+            download="Resume"
+          >
             <p className="text-white-100 mt-3 text-justify text-[12px] sm:text-[14px] md:text-[16px] underline cursor-pointer">
-              Download Resume
+              View Resume
             </p>
           </a>
         </div>

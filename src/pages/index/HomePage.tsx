@@ -8,7 +8,7 @@ const HomePage = () => {
     >
       <div>
         <p className="text-white-100 text-[36px] sm:text-[52px] md:text-[72px] font-bold text-center w-[100vw] sm:w-[80vw] md:w-[50vw] line-h">
-          Detail Oriented Web and Mobile Developer
+          Web & Cross Platform and Mobile Developer
         </p>
       </div>
       <div className="mt-5 flex flex-col md:flex-row">
